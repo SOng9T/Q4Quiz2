@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+<h1> Score Analyzer </h1>
+
+<details ontoggle="console.log('Instructions toggled');">
+  <summary>Click Me</summary>
+  <p>Enter your grades in the following subjects.</p>
+<p> Note: Grading Criteria and Equivalents can very depending on school or district.</p>
+</details>
+
+
+
+</body>
+</html>
+
+Numerical Grade Non-Numerical Rating
+94 to 100 Excellent
+87 to 93.99 Above Satisfactory
+80 to 86.99 Satisfactory
+75 to 79.99 Needs Improvement
+70 to 74.99 Poor
+
+    <div class="container">
+    <div class="row">
+
+
+     <div class="col-sm-4">
+            <div class="card">
+                    <div class="card-header"><h3>Science</h3></div>
+                    <img class="card-img-top mx-auto d-block" src="https://img.freepik.com/free-vector/colorful-science-objects-icons-vector-set_1308-140707.jpg?t=st=1746497187~exp=1746500787~hmac=b332ed95c8b23856eeb7001febf2ed11bfea59249563d9ad31204151382a65ea&w=900" alt="proj-img" style="width:75%">
+                    <form>
+                    <label for="orderinput">Enter Grade:</label>
+                    <input type="number" id="gradeA" name="order" placeholder="Enter grades here" class="form-control">
+                 </form>
+
+      
+              </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card">
+                    <div class="card-header"><h3>Math</h3></div>
+                    <img class="card-img-top mx-auto d-block" src="https://img.freepik.com/premium-vector/doodle-math-formula-with-mathematics-font_1639-26838.jpg?w=900" alt="proj-img" style="width:75%">
+                    <form>
+                    <label for="orderinput">Enter Grade:</label>
+                    <input type="number" id="gradeB" name="order" placeholder="Enter grades here" class="form-control">
+                 </form>
+
+      
+              </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card">
+                    <div class="card-header"><h3>English</h3></div>
+                    <img class="card-img-top mx-auto d-block" src="https://img.freepik.com/free-vector/hand-drawn-english-school-illustration_23-2149491453.jpg?t=st=1746497262~exp=1746500862~hmac=337cff0881aa5058e5e3b277e9c45c5bfb15c31df5f0a5ba9a74571ea06a136d&w=900" alt="proj-img" style="width:75%">
+                    <form>
+                    <label for="orderinput">Enter Grade:</label>
+                    <input type="number" id="gradeC" name="order" placeholder="Enter grades here" class="form-control">
+                 </form>
+
+
+      
+              </div>
+        </div>
+
+     <div class="text-center mt-4">
+    <button class="btn btn-primary" onclick="analyzeGrades()">Get Rating</button>
+</div>
+
+<footer class="text-center mt-5">
+    <p>Chilli Ong | 9-Topaz</p>
+</footer>
+
+
